@@ -2,6 +2,8 @@ import './App.css';
 import React from 'react';
 import HelloWorld from './components/HelloWorld';
 import MyButton from './components/MyButton';
+import NewButton from './components/NewButton';
+import TabelaNomes from './components/TabelaNomes';
 
 function App() {
   const name = 'Luiz Gustavo'
@@ -21,6 +23,8 @@ function App() {
       <img src={url} alt="Minha Imagem"/>
       <HelloWorld/>
       <MyButton/>
+      <NewButton/>
+      <TabelaNomes/>
     </div>
   );
 }
