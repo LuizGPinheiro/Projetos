@@ -1,4 +1,7 @@
 import './App.css';
+import React from 'react';
+import HelloWorld from './components/HelloWorld';
+import MyButton from './components/MyButton';
 
 function App() {
   const name = 'Luiz Gustavo'
@@ -16,6 +19,8 @@ function App() {
       <p>Olá, {newName}</p>
       <p>Soma: {sum(1, 2)}</p>
       <img src={url} alt="Minha Imagem"/>
+      <HelloWorld/>
+      <MyButton/>
     </div>
   );
 }
