@@ -4,6 +4,8 @@ import HelloWorld from './components/HelloWorld';
 import MyButton from './components/MyButton';
 import NewButton from './components/NewButton';
 import TabelaNomes from './components/TabelaNomes';
+import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
 
 function App() {
   const name = 'Luiz Gustavo'
@@ -25,6 +27,13 @@ function App() {
       <MyButton/>
       <NewButton/>
       <TabelaNomes/>
+      <SayMyName nome="Luiz"/>
+      <Pessoa
+      foto="https/via.placeholder.com/150"
+      nome="Luiz"
+      idade="29"
+      profissao="Engenheiro de Software"
+      />
     </div>
   );
 }
