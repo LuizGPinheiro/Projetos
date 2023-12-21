@@ -5,9 +5,52 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.team-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.team-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.team-info {
+  margin-top: 10px;
+}
+
+.team-container-vasco {
+  flex: 1;
+  height: 100px;
+  background-color: rgb(46, 45, 45);
+}
+
+.team-container-liverpool {
+  flex: 1;
+  height: 100px;
+  background-color: rgb(238, 18, 18);
+}
+
+.team-container-sporting {
+  flex: 1;
+  height: 100px;
+  background-color: rgb(6, 170, 6);
+}
+
+.team-container-napoli {
+  flex: 1;
+  height: 100px;
+  background-color: rgb(21, 230, 230);
 }
