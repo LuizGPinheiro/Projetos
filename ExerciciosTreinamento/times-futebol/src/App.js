@@ -36,31 +36,34 @@ function App() {
   return (
     <div className="App">
       <h1>Melhores Times de Futebol</h1>
+
       <div className="team-container" id="team-container">
         <div className="team-container-vasco" id="team-container">
-          <img src="public/imgs/vasco.png" alt="vasco"/>
+          <img src="/imgs/vasco.png" alt="vasco"/>
+          <Button team="Vasco" onClick={() => handleButtonClick('vasco')}/>
         </div>
         <div className="team-container-liverpool" id="team-container">
-          <img src="public/imgs/liverpool.png" alt="liverpool"/>
+          <img src="/imgs/liverpool.png" alt="liverpool"/>
+          <Button team="Liverpool" onClick={() => handleButtonClick('liverpool')}/>
         </div>
         <div className="team-container-sporting" id="team-container">
-          <img src="public/imgs/sporting.png" alt="sporting"/>
+          <img src="/imgs/sporting.png" alt="sporting"/>
+          <Button team="Sporting" onClick={() => handleButtonClick('sporting')}/>
         </div>
         <div className="team-container-napoli" id="team-container">
-          <img src="public/imgs/napoli.png" alt="napoli"/>
+          <img src="/imgs/napoli.png" alt="napoli"/>
+          <Button team="napoli" onClick={() => handleButtonClick('napoli')}/>
         </div>
-        {selTeam && (
+      </div>
+
+      {selTeam && (
           <div className="team-info">
             <h2>{teamData[selTeam].nome}</h2>
             <p>Nome do Técnico: {teamData[selTeam].treinador}</p>
             <p>Estádio: {teamData[selTeam].estadio}</p>
           </div>
         )}
-        <Button team="Vasco" onClick={() => handleButtonClick('vasco')}/>
-        <Button team="Liverpool" onClick={() => handleButtonClick('liverpool')}/>
-        <Button team="Sporting" onClick={() => handleButtonClick('sporting')}/>
-        <Button team="Napoli" onClick={() =>handleButtonClick('napoli')}/>
-      </div>  
+        
     </div>
   );
 }

@@ -36,35 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.team-container {
-  flex: 1;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-.team-container img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-.team-info {
-  margin-top: 10px;
-}
-
-.team-container-vasco {
-  background-color: rgb(46, 45, 45);
-}
-
-.team-container-liverpool {
-  background-color: rgb(238, 18, 18);
-}
-
-.team-container-sporting {
-  background-color: rgb(6, 170, 6);
-}
-
-.team-container-napoli {
-  background-color: rgb(21, 230, 230);
-}

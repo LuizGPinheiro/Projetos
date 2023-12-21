@@ -15,9 +15,9 @@ code {
 }
 
 .team-container {
+  width: 800px;
+  height: 400px;
   display: flex;
-  gap: 20px;
-  padding: 20px;
   box-sizing: border-box;
 }
 
@@ -33,24 +33,31 @@ code {
 
 .team-container-vasco {
   flex: 1;
-  height: 100px;
+  height: 250px;
+  padding: 25px;
+  margin-right: 10px;
   background-color: rgb(46, 45, 45);
 }
 
 .team-container-liverpool {
   flex: 1;
-  height: 100px;
+  height: 280px;
+  padding: 10px;
+  margin-right: 10px;
   background-color: rgb(238, 18, 18);
 }
 
 .team-container-sporting {
   flex: 1;
-  height: 100px;
+  height: 275px;
+  padding: 13px;
+  margin-right: 10px;
   background-color: rgb(6, 170, 6);
 }
 
 .team-container-napoli {
   flex: 1;
-  height: 100px;
+  height: 220px;
+  padding: 40px;
   background-color: rgb(21, 230, 230);
 }
