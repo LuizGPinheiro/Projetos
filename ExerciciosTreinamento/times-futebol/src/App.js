@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import './index.css';
 import Button from './components/Button';
+import Tabela from './components/Tabela';
 
 function App() {
   const teamData = {
@@ -63,7 +64,7 @@ function App() {
             <p>Estádio: {teamData[selTeam].estadio}</p>
           </div>
         )}
-        
+      <Tabela/>
     </div>
   );
 }
